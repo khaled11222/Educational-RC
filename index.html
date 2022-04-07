@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>educationalrc</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="preLoader"></div>
+
+    <div class="main_container">
+      <div class="page_content">
+        <header>
+          <div class="header-text">
+            <h1>What's in the basket? choose and write.</h1>
+          </div>
+          <div class="icons">
+            <div class="dummy_icon">
+              <img alt="dummy_icon" src="assets/resourse_icon.png" />
+            </div>
+            <div class="info_icon">
+              <img alt="info_icon" src="assets/help_icon.png" />
+            </div>
+          </div>
+        </header>
+        <div class="puzzle_content">
+          <div class="puzzle_wrapper">
+            <div class="elements">
+              <p
+                class="element scissors"
+                data-element="scissors"
+                data-isCorrect="false"
+              >
+                scissors
+              </p>
+              <p
+                class="element eraser"
+                data-element="eraser"
+                data-isCorrect="true"
+              >
+                eraser
+              </p>
+              <p
+                class="element ruler"
+                data-element="ruler"
+                data-isCorrect="true"
+              >
+                ruler
+              </p>
+              <p class="element bag" data-element="bag" data-isCorrect="false">
+                bag
+              </p>
+              <p
+                class="element pencil_case"
+                data-element="pencil case"
+                data-isCorrect="false"
+              >
+                pencil case
+              </p>
+              <p class="element book" data-element="book" data-isCorrect="true">
+                book
+              </p>
+              <p class="element pen" data-element="pen" data-isCorrect="true">
+                pen
+              </p>
+              <p
+                class="element pencil"
+                data-element="pencil"
+                data-isCorrect="true"
+              >
+                pencil
+              </p>
+            </div>
+            <div class="puzzle_answers">
+              <p class="answerOne answer"></p>
+              <p class="answerTwo answer"></p>
+              <p class="answerThree answer"></p>
+              <p class="answerFour answer"></p>
+              <p class="answerFive answer"></p>
+            </div>
+            <div class="puzzle_img">
+              <img src="assets/choose.png" />
+            </div>
+          </div>
+        </div>
+        <footer>
+          <div class="restart_puzzle_icon">
+            <img class="reset" src="assets/replay_icon.png" />
+          </div>
+          <div class="solvePazzel">
+            <img src="assets/showAns_icon.png" />
+          </div>
+        </footer>
+      </div>
+      <div class="dummy_Img">
+        <img class="dummyCloseIcon" src="assets/close_icon.png" />
+        <img src="assets/dummy.jpg" />
+      </div>
+      <div class="info_content">
+        <p>help content goes here</p>
+        <img class="infoCloseIcon" src="assets/close_icon.png" />
+      </div>
+    </div>
+
+    <script src="js.js"></script>
+  </body>
+</html>
